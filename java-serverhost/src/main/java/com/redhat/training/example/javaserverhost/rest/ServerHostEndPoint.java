@@ -21,6 +21,6 @@ public class ServerHostEndPoint {
 		 catch (Exception e) {
             e.printStackTrace();
         }
-		return Response.ok("I am running on server "+host+" Version 1.0 \n").build();
+		return Response.ok("I am running on server "+host+" Version 2.0 \n").build();
 	}
 }
